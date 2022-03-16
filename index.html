@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/index.css" />
+		<link rel="icon" href="./assets/images/flag.png" />
+		<title>Countries App</title>
+	</head>
+	<body>
+		<header>
+			<navbar-component
+				navbartitle="Countries App"
+				logo="./assets/images/flag.png"
+			/>
+		</header>
+		<main class="main__content" id="main">
+			<div class="main__content_loading">
+				<loading-component />
+			</div>
+		</main>
+		<footer>
+			<footer-component />
+		</footer>
+	</body>
+</html>
+
+<script type="module" src="app.js"></script>
+<script src="components/Card/card.js"></script>
+<script src="components/Navbar/navbar.js"></script>
+<script src="components/Modal/modal.js"></script>
+<script src="components/Footer/footer.js"></script>
+<script src="components/Loading/loading.js"></script>
