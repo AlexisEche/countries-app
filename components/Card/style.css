@@ -1,0 +1,32 @@
+.countryCard {
+	font-family: sans-serif;
+	background: var(--gray-1);
+	width: 320px;
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-family: "Baloo 2", cursive;
+}
+.countryCard__image {
+	border-radius: 10px 10px 0 0;
+	width: 320px;
+	height: 180px;
+}
+.countryCard__image:hover {
+	transform: scale(1.009);
+}
+.countryCard__details {
+	padding: 1rem;
+	color: var(--color-title);
+}
+.countryCard__details_title {
+	color: var(--color-title);
+}
+
+.countryCard__details_subtitle {
+	color: var(--color-subtitle);
+}
+.countryCard__details_openModal {
+	font-size: 18px;
+}
