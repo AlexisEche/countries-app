@@ -11,6 +11,7 @@ Plataforma de paises, donde puedes ver una lista de paises junto con algunas de 
 ### Cómo correr el proyecto
 
 - Clonar el repositorio
+- Abrir el archivo index.html desde el navegador
 - Podrá visualizar el proyecto corriendo desde su navegador, accediendo a la dirección `http://localhost:5500/`
 
 ### Proyecto deployado
